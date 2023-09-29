@@ -47,5 +47,5 @@ To make it easy for you to get started with GitHub, here's a list of recommended
 
 You can now access the server at http://127.0.0.1:8000
 
-## Note: If you got the "Please provide a valid cache path" error then run: rm -rf bootstrap/cache/config.php
+## Note: If you got the "Please provide a valid cache path" error then run command on terminal: rm -rf bootstrap/cache/config.php
 
