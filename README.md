@@ -32,7 +32,12 @@ To make it easy for you to get started with GitHub, here's a list of recommended
    
 ## Configure the memcache in the .env file
  - CACHE_DRIVER=memcached
-
+   
+## Create these folders under storage/framework: (If you don't have a framework folder then create one first )
+ - sessions
+ - cache
+ - views
+   
 ## Clear the config cache
  - php artisan config:cache
  - php artisan config:clear
@@ -41,3 +46,6 @@ To make it easy for you to get started with GitHub, here's a list of recommended
 - php artisan serve
 
 You can now access the server at http://127.0.0.1:8000
+
+## Note: If you got the "Please provide a valid cache path" error then run: rm -rf bootstrap/cache/config.php
+
